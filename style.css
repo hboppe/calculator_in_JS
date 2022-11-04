@@ -53,6 +53,16 @@ div#buttons {
 
 }
 
+button:hover{
+    background-color: rgba(128, 128, 128, 0.443);
+    cursor: pointer;
+}
+
+button:after{
+    background-color: brown;
+    transition: 1s;
+}
+
 div.eachLine {
     height: 20%;
     display: flex;
@@ -73,3 +83,5 @@ button#button0{
 button#buttonEqual {
     border-radius: 0px 0px 12px 0px;
 }
+
+
