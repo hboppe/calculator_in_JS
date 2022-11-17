@@ -16,7 +16,7 @@
         <div id="buttons">
             <div class="eachLine line1">
 
-                <button type="button" onclick="calculadora.clean(this)">AC</button>
+                <button type="button" id="cleanScreen">AC</button>
                 <button type="button" >+/-</button>
                 <button type="button">%</button>
                 <button type="button">/</button>
@@ -24,32 +24,32 @@
             </div>
             <div class="eachLine line2">
 
-                <button type="button" onclick="calculadora.digit(this)" class="digit" value="7">7</button>
-                <button type="button" class="digit" onclick="calculadora.digit(this)">8</button>
-                <button type="button" class="digit" onclick="calculadora.digit(this)">9</button>
-                <button type="button" class="operators" onclick="multiplication()">X</button>
+                <button type="button" class="digit" value="7">7</button>
+                <button type="button" class="digit">8</button>
+                <button type="button" class="digit">9</button>
+                <button type="button" id="mult">X</button>
 
             </div>
             <div class="eachLine line3">
 
-                <button type="button" class="digit" onclick="calculadora.digit(this)">4</button>
-                <button type="button" class="digit" onclick="calculadora.digit(this)">5</button>
-                <button type="button" class="digit" onclick="calculadora.digit(this)">6</button>
+                <button type="button" class="digit">4</button>
+                <button type="button" class="digit">5</button>
+                <button type="button" class="digit">6</button>
                 <button type="button">-</button>
 
             </div>
             <div class="eachLine line4">
 
-                <button type="button" class="digit" onclick="calculadora.digit(this)">1</button>
-                <button type="button" class="digit" onclick="calculadora.digit(this)">2</button>
-                <button type="button" class="digit" onclick="calculadora.digit(this)">3</button>
+                <button type="button" class="digit">1</button>
+                <button type="button" class="digit">2</button>
+                <button type="button" class="digit">3</button>
                 <button type="button">+</button>
 
             </div>
             <div class="eachLine line5">
 
-                <button type="button" id="button0" class="digit" onclick="calculadora.digit(this)">0</button>
-                <button type="button" onclick="calculadora.digit(this)">.</button>
+                <button type="button" id="button0" class="digit">0</button>
+                <button type="button" class="digit">.</button>
                 <button type="button" id="buttonEqual">=</button>
                 
 
